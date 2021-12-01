@@ -1,17 +1,17 @@
 package com.example.firstmiguelmartinezoliaga;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.window.SplashScreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+@SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
 
 @Override
@@ -19,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
         ImageView imagen;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        openApp(true);setContentView(R.layout.activity_splash);
+        openApp();setContentView(R.layout.activity_splash);
         imagen=(ImageView)findViewById(R.id.animimage);
         Animation fadein=AnimationUtils.loadAnimation(this,R.anim.movement);
         imagen.startAnimation(fadein);
@@ -27,13 +27,10 @@ public class SplashActivity extends AppCompatActivity {
 
 
 
-    private void openApp(boolean locationPermission) {
-        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
+    private void openApp() {
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+            startActivity(intent);
         }, 3450);
     }
 }
