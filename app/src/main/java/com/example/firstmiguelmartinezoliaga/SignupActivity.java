@@ -1,4 +1,6 @@
 package com.example.firstmiguelmartinezoliaga;
 
-public class SignupActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SignupActivity extends AppCompatActivity {
 }
