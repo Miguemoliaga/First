@@ -10,16 +10,15 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
-    Button entrar;
-    Button volver;
+
     TextView signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        entrar = (Button)findViewById(R.id.button);
-        volver = (Button)findViewById(R.id.buttoninverso);
+        Button entrar = (Button)findViewById(R.id.button);
+        Button volver = (Button)findViewById(R.id.buttoninverso);
         signup = (TextView)findViewById(R.id.textoSignup);
 
         signup.setOnClickListener(new View.OnClickListener() {
