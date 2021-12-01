@@ -3,21 +3,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     xmlns:interpolator="@android:anim/linear_interpolator"
     <translate
-        android:fromXDelta="0"
-        android:toXDelta="100"
-        android:duration="500"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="-20%p"
+        android:toYDelta="30%p"
+        android:duration="1000"
         />
     <translate
-        android:fromXDelta="100"
-        android:toXDelta="75"
-        android:duration="500"
-        android:startOffset="500"
-        />
-    <translate
-        android:fromXDelta="75"
-        android:toXDelta="150"
-        android:duration="500"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="40%p"
+        android:toYDelta="-10%p"
+        android:duration="1000"
         android:startOffset="1000"
-
+        />
+    <translate
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="-20%p"
+        android:toYDelta="30%p"
+        android:duration="1000"
+        android:startOffset="2000"
+        />
+    <translate
+        android:fromYDelta="0%p"
+        android:toYDelta="-100%p"
+        android:duration="500"
+        android:startOffset="3000"
         />
 </set>
