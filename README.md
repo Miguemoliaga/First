@@ -9,7 +9,11 @@ My first front-end project for mobile device made by Android Studio IDE.
 El código fuente se encuentra aquí:
 ### Java
 
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/firstmiguelmartinezoliaga/SplashActivity.java
+
 ### XML
+
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activity_splash.xml
 
 ## 2.Login Screen
 
@@ -20,7 +24,11 @@ El código fuente se encuentra aquí:
 
 ### Java 
 
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/firstmiguelmartinezoliaga/LoginActivity.java
+
 ### XML
+
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activity_login.xml
 
 ## 3.Main Screen
 Tras introducir un nombre de usuario y una contraseña, haciendo click sobre el botón de "entrar", 
@@ -32,7 +40,11 @@ iremos al MainActivity, sobre la cual se desarrolla toda la actividad principal 
 El código fuente se encuentra aquí:
 ### Java
 
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/firstmiguelmartinezoliaga/MainActivity.java
+
 ### XML
+
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activity_main.xml
 
 Si por el contrario, elegimos *Crear cuenta*, nos aparecerá lo siguiente:
 
@@ -52,4 +64,8 @@ El código fuente se encuentra aquí:
 El código fuente se encuentra aquí:
 ### Java
 
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/firstmiguelmartinezoliaga/SignupActivity.java
+
 ### XML
+
+https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activity_signup.xml
