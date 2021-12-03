@@ -10,7 +10,12 @@ My first front-end project for mobile device made by Android Studio IDE.
 
 ## 1.Splash Screen<a name="splash"></a>
 
+Pantalla inicial con el simbolo de "Bridge Four" haciendo un movimiento en forma de rayo y ascendiendo hasta salir de la pantalla en el momento en el que la aplicacion abre la siguiente pestaña.
+
+![sc](https://github.com/Miguemoliaga/First/blob/master/app/sc/splash.PNG)
+
 El código fuente se encuentra aquí:
+
 ### Java
 
 https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/firstmiguelmartinezoliaga/SplashActivity.java
@@ -23,6 +28,7 @@ https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activi
 
 Tras haber visto el Splash Screen con su respectiva animación, el siguiente activity que se inicia es el Login Activity, el cual tiene este aspecto:
 
+![sc](https://github.com/Miguemoliaga/First/blob/master/app/sc/login.PNG)
 
 El código fuente se encuentra aquí:
 
@@ -38,7 +44,7 @@ https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activi
 Tras introducir un nombre de usuario y una contraseña, haciendo click sobre el botón de "entrar", 
 iremos al MainActivity, sobre la cual se desarrolla toda la actividad principal de la app.
 
-
+![sc](https://github.com/Miguemoliaga/First/blob/master/app/sc/mainb.PNG)
 
 
 El código fuente se encuentra aquí:
@@ -57,6 +63,7 @@ https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activi
 
 Si por el contrario, elegimos *Crear cuenta*, nos aparecerá lo siguiente:
 
+![sc](https://github.com/Miguemoliaga/First/blob/master/app/sc/signup.PNG)
 
 Tras introducir los datos y crear una cuenta, en la pantalla aparecerá un *toast* que nos 
 indica que hemos creado una cuenta nueva con éxito.
