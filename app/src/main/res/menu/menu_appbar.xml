@@ -7,21 +7,18 @@
         android:id="@+id/item1"
         android:title="Copy"
           app:showAsAction="ifRoom" />
-<!--//    android:icon="@drawable/ic_svg"-->
-
     <item
         android:id="@+id/item2"
         android:title="Settings"
 
         app:showAsAction="ifRoom|withText" />
-<!--    android:icon="@drawable/llave_foreground"-->
     <item
         android:id="@+id/item3"
-        android:title="Sobre nosotros"
+        android:title="Me gusta"
         app:showAsAction="never" />
     <item
         android:id="@+id/item4"
-        android:title="Crear cuenta"
+        android:title="Compartir"
         app:showAsAction="never"/>
 
 </menu>
