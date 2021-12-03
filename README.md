@@ -50,20 +50,16 @@ https://github.com/Miguemoliaga/First/blob/master/app/src/main/java/com/example/
 
 https://github.com/Miguemoliaga/First/blob/master/app/src/main/res/layout/activity_main.xml
 
+
+
+
+## 4.Sign Up Screen
+
 Si por el contrario, elegimos *Crear cuenta*, nos aparecerá lo siguiente:
 
 
 Tras introducir los datos y crear una cuenta, en la pantalla aparecerá un *toast* que nos 
 indica que hemos creado una cuenta nueva con éxito.
-
-
-El código fuente se encuentra aquí:
-### Java
-
-### XML
-
-
-## 4.Sign Up Screen
 
 El código fuente se encuentra aquí:
 ### Java
