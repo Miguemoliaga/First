@@ -16,7 +16,12 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        /*Para glide
+           ImageView //nombreimageview// = (findViewById(R.id.//idimagen/));
+           Glide.with(Activity:this).load(R.drawable.//nombreimagen//).transition(DrawableTransitionOptions.withCrossFade(100)).into(//nombreimageview//)
 
+
+         */
         Button entrar = (Button)findViewById(R.id.button);
         Button volver = (Button)findViewById(R.id.buttoninverso);
         signup = (TextView)findViewById(R.id.textoSignup);
